@@ -9,7 +9,7 @@
     "test": "ng test --code-coverage",
     "ci:clean": "rimraf ./dist",
     "ci:test": "ng test --watch=false --browsers=ChromeHeadlessCustom",
-    "ci:build": "ng build --base-href /jokes/"
+    "ci:build": "ng build --base-href /jokes-app/"
   },
   "private": true,
   "dependencies": {
